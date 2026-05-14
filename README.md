@@ -45,3 +45,11 @@
 - **Google Fonts (Poppins)** — Typography
 
 ## 📂 Project Structure
+asix-foods-website/
+│
+├── index.html # Main HTML file (contains all styles & scripts)
+├── README.md # Project documentation
+└── assets/ (optional) images, favicon, etc.
+      └── images/ # Product photos
+      └── css/ # stylesheet
+      └── js/ # javascript
