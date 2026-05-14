@@ -8,7 +8,7 @@
 
 ## 📸 Preview
 
-![ASix Foods Website Preview](https://via.placeholder.com/800x400?text=ASix+Foods+Website+Screenshot)
+![ASix Foods Website Preview](https://placehold.co/800x200?text=ASix+Foods+Website+Screenshot)
 
 ## ✨ Features
 
