@@ -45,7 +45,7 @@
 - **Google Fonts (Poppins)** — Typography
 
 ## 📂 Project Structure
-TEXT
+
 ```
 |   index.html
 |
@@ -66,7 +66,7 @@ TEXT
 ```
 ---
 
-BASH
+
 ```
 asix-foods-website/
 │
