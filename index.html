@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>ASix Foods - Cookies & Camilan Kering Premium</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <h1 class="logo-main">
+              <span class="logo-text">ASix Foods</span>
+              <a href="./"
+                ><img src="assets/images/asix-foods.png" alt="ASix Foods"
+              /></a>
+            </h1>
+            <p>Homemade Cookies & Camilan Kering Premium</p>
+          </div>
+          <div class="nav-links">
+            <a href="#home">Beranda</a>
+            <a href="#produk">Produk</a>
+            <a href="#testimoni">Testimoni</a>
+            <a href="#kontak">Kontak</a>
+            <div class="cart-icon" id="whatsappCartBtn">
+              🛒 Keranjang Belanja
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- Hero / Home -->
+      <section id="home">
+        <div class="hero">
+          <div class="hero-text">
+            <h2>
+              Special taste, Crafted with 💖<br />
+              100% Homemade
+            </h2>
+            <p>
+              Tanpa pengawet, tanpa pewarna buatan. <br />
+              Cookies kastengel, nastar, pistachios, hingga aneka rempeyek &
+              kentang mustofa. Cocok untuk camilan harian, hari raya, hampers
+              gift.
+            </p>
+            <a
+              href="https://wa.me/628138131950?text=Halo%20ASix%20Foods%2C%20saya%20ingin%20order%20cookies%2Fcemilan"
+              target="_blank"
+              class="btn-wa"
+              ><i class="fab fa-whatsapp"></i> Order Sekarang via WA</a
+            >
+          </div>
+          <div style="font-size: 6rem">
+            <img
+              src="assets/images/Hero_Main.png"
+              alt="ASix Foods"
+              style="width: 520px; max-width: 100%; height: auto; float: right"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Filter & Katalog Produk -->
+      <section id="produk">
+        <h2 class="section-title">🍪 Koleksi Produk Pilihan ASix</h2>
+        <div class="filter-buttons" id="filterContainer">
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="cookies">
+            Cookies Premium
+          </button>
+          <button class="filter-btn" data-filter="camilan">Camilan</button>
+          <button class="filter-btn" data-filter="gurih">Gurih</button>
+          <button class="filter-btn" data-filter="rempeyek">Rempeyek</button>
+          <button class="filter-btn" data-filter="kering">Olahan Kering</button>
+        </div>
+        <div class="products-grid" id="productsGrid"></div>
+      </section>
+
+      <!-- Testimoni -->
+      <section id="testimoni">
+        <div class="testimonials">
+          <h2 class="section-title" style="margin-top: 0">
+            💬 Ulasan Pelanggan
+          </h2>
+          <div class="testi-grid">
+            <div class="testi-card">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+              <p class="testi-text">
+                "Kastengelnya lumer di mulut, nastar manis pas. Top banget ASix
+                Foods!"
+              </p>
+              <p class="testi-name">— Ibu Rina, Jakarta</p>
+            </div>
+            <div class="testi-card">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+              <p class="testi-text">
+                "Kentang mustofa renyah dan pedasnya nampol. Rempeyek kacang ijo
+                favorit keluarga."
+              </p>
+              <p class="testi-name">— Pak Andi, Surabaya</p>
+            </div>
+            <div class="testi-card">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+              <p class="testi-text">
+                "Pistachios cookies enak banget, beda dari yang lain. Pengiriman
+                cepat!"
+              </p>
+              <p class="testi-name">— Maya, Bandung</p>
+            </div>
+            <div class="testi-card">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star-half-alt"></i>
+              <p class="testi-text">
+                "Tempe kering+teri+kacang, mantap untuk lauk atau camilan.
+                Reorder terus."
+              </p>
+              <p class="testi-name">— Bu Dewi, Semarang</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Informasi Pengiriman & Pembayaran + FAQ -->
+      <section id="kontak">
+        <div class="contact-faq">
+          <div class="contact-box">
+            <h3><i class="fas fa-truck"></i> Info Pengiriman & Ongkir</h3>
+            <p>
+              ⭐ Estimasi ongkir:
+              <strong>Jabodetabek mulai 15rb, luar kota 25-45rb</strong>
+              (disesuaikan lokasi).
+            </p>
+            <p>
+              ⭐ Pengiriman via JNE, SiCepat, atau kurir lokal. Setiap hari
+              kerja.
+            </p>
+            <h3 style="margin-top: 20px">
+              <i class="fas fa-credit-card"></i> Metode Pembayaran
+            </h3>
+            <p>
+              ✔ Transfer Bank (BCA, Mandiri, BRI) ✔ QRIS (Semua E-Wallet) ✔ Dana
+              / OVO
+            </p>
+            <h3 style="margin-top: 20px">
+              <i class="fas fa-phone-alt"></i> Hubungi Kami
+            </h3>
+            <p>
+              <i class="fab fa-whatsapp"></i>
+              <strong>+62-813-813-1950</strong> (Admin ASix Foods)
+            </p>
+            <p><i class="fas fa-envelope"></i> asixfoods@super.id</p>
+            <div class="social-icons" style="margin-top: 15px">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+          <div class="faq-box">
+            <h3><i class="fas fa-question-circle"></i> FAQ</h3>
+            <div class="faq-item">
+              <div class="faq-question">
+                🍪 Berapa minimal order? <span>+</span>
+              </div>
+              <div>Minimal 1 toples / kemasan, bisa campur varian.</div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">
+                ⏳ Ketahanan produk? <span>+</span>
+              </div>
+              <div>
+                Cookies tahan 3 bulan & rempeyek tahan 4 minggu dalam wadah
+                kedap udara.
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">
+                🚚 Pengiriman luar kota? <span>+</span>
+              </div>
+              <div>
+                Ya, kami kirim ke seluruh Indonesia (estimasi 3-7 hari).
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">
+                🌾 Apakah ada alergen? <span>+</span>
+              </div>
+              <div>
+                Produk mengandung kacang, telur, susu, gluten (tepung
+                terigu).<br />
+                Harap periksa komposisi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Custom Order Form (simulasi WA) -->
+      <div class="custom-order">
+        <h3>🎁 Custom Order / Hampers & Souvenir</h3>
+        <p>
+          Ingin pesan dalam jumlah besar untuk acara, pernikahan, atau parcel
+          spesial? Chat kami untuk desain kemasan dan harga spesial.
+        </p>
+        <button class="btn-custom" id="customOrderBtn">
+          <i class="fab fa-whatsapp"></i> Pesanan Kustom via WA
+        </button>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2025 ASix Foods - Home Industry Cookies & Camilan Kering
+        Terpercaya
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
