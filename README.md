@@ -47,33 +47,22 @@
 ## 📂 Project Structure
 
 ```
-|   index.html
-|
-\---assets
-    +---css
-    |       style.css
-    |
-    +---images
-    |       asix-foods.png
-    |       asix-foods_lg.png
-    |       ASix_Foods_logo_transparent.png
-    |       ASix_Snax_logo_Transparent.png
-    |       Hero_Main.jpg
-    |       Hero_Main.png
-    |
-    \---js
-            script.js
-```
----
-
-
-```
 asix-foods-website/
+│   index.html
+│   README.md
 │
-├── index.html # Main HTML file (contains all styles & scripts)
-├── README.md # Project documentation
-└── assets/ (optional) images, favicon, etc.
-      └── images/ # Product photos
-      └── css/ # stylesheet
-      └── js/ # javascript
+└───assets
+    ├───css
+    │       style.css
+    │
+    ├───images
+    │       asix-foods.png
+    │       asix-foods_lg.png
+    │       ASix_Foods_logo_transparent.png
+    │       ASix_Snax_logo_Transparent.png
+    │       Hero_Main.jpg
+    │       Hero_Main.png
+    │
+    └───js
+            script.js
 ```
